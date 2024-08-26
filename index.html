@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive | Pradeep
+    </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css"> 
+</head>
+<body>
+    <h1>Responsive web site 1</h1>
+
+    <section class="center-content">
+        <!-- Responsive image -->
+        <p>Following is a responsive image..</p>
+        <img src="./image/img_girl.jpg" alt="Centered Image"/>
+        
+        <!--  Different Images -->
+        <p><br>Following example show Different Images Depending on Browser Width</p>
+        <picture>
+            <source srcset="./image/children-sm.jpg" media="(max-width: 600px)">
+            <source srcset="./image/children-lg.jpg" media="(max-width: 1500px)">
+            <img src="i./image/children-lg.jpg" alt="Flowers" style="width:auto;">
+        </picture>
+
+        <!-- Responsive Text -->
+        <h1>Responsive Text</h1>
+        
+         <!-- Media Queries -->
+        <h2>Media Queries</h1>
+        <p>Resize the browser window.</p>
+        <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+        <div class="left">
+        <p>Left Menu</p>
+        </div>
+
+        <div class="main">
+        <p>Main Content</p>
+        </div>
+
+        <div class="right">
+        <p>Right Content</p>
+        <br>
+        </div>
+    </section>
+
+</body>
+</html>

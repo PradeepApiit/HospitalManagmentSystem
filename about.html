@@ -1,0 +1,59 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            height: 100px;
+            
+        }
+
+        .nav {
+            width: 100%; /* Adjust the width as needed */
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            flex-direction: row;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+            border-bottom: 1px solid #555;
+        }
+
+        .nav a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <!-- Your content goes here -->
+        <h1>Welcome to My Website</h1>
+        <p>This is the main content area.</p>
+    </div>  
+</body>
+</html>
